@@ -1,58 +1,97 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\seis1893\SolarTeam\PCB\RJ45splice_board\PCB.PcbDoc
-Date     : 2020-11-04
-Time     : 17:52:23
+PCB File : E:\SolarTeam\rj45splice_thing\PCB.PcbDoc
+Date     : 2020-12-28
+Time     : 13:02:50
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (0.202mm < 0.254mm) Between Pad J3-12(42.572mm,106.372mm) on Multi-Layer And Track (40.28mm,110.184mm)(44.673mm,105.791mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.206mm < 0.254mm) Between Pad J3-2(39.802mm,103.172mm) on Multi-Layer And Track (37.096mm,104.525mm)(59.297mm,104.525mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.206mm < 0.254mm) Between Pad J3-3(37.762mm,103.172mm) on Multi-Layer And Track (37.096mm,104.525mm)(59.297mm,104.525mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.252mm < 0.254mm) Between Pad J3-3(37.762mm,103.172mm) on Multi-Layer And Track (38.855mm,104.044mm)(38.855mm,107.315mm) on Top Layer 
+   Violation between Clearance Constraint: (0.252mm < 0.254mm) Between Pad J3-3(37.762mm,103.172mm) on Multi-Layer And Track (38.855mm,104.044mm)(39.776mm,103.124mm) on Top Layer 
+   Violation between Clearance Constraint: (0.228mm < 0.254mm) Between Pad J3-8(33.682mm,103.172mm) on Multi-Layer And Track (29.185mm,104.546mm)(34.274mm,104.546mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.244mm < 0.254mm) Between Pad J3-8(33.682mm,103.172mm) on Multi-Layer And Track (34.274mm,104.546mm)(35.696mm,103.124mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.127mm < 0.254mm) Between Pad J3-MH2(43.942mm,99.822mm) on Multi-Layer And Track (42.866mm,101.999mm)(46.78mm,101.999mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.239mm < 0.254mm) Between Track (37.096mm,104.525mm)(59.297mm,104.525mm) on Bottom Layer And Via (41.656mm,103.251mm) from Top Layer to Bottom Layer 
+Rule Violations :9
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-Rule Violations :0
+   Violation between Un-Routed Net Constraint: Net NetJ1_11 Between Track (46.787mm,94.386mm)(47.117mm,94.386mm) on Top Layer And Track (46.787mm,93.116mm)(46.787mm,94.386mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetP1_1 Between Track (51.07mm,95.072mm)(52.705mm,93.437mm) on Bottom Layer And Track (50.927mm,95.072mm)(51.07mm,95.072mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetP1_1 Between Track (67.894mm,103.048mm)(67.945mm,103.048mm) on Bottom Layer And Track (67.945mm,103.048mm)(68.961mm,104.064mm) on Top Layer 
+Rule Violations :3
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+Processing Rule : Width Constraint (Min=0.5mm) (Max=0.5mm) (Preferred=0.5mm) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.508mm) (Max=0.508mm) (Preferred=0.508mm) (All)
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.8mm) (Preferred=0.8mm) (All)
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
 
 Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
-   Violation between Hole Size Constraint: (3.2mm > 2.54mm) Pad J1-MH1(64.643mm,104.013mm) on Multi-Layer Actual Hole Size = 3.2mm
-   Violation between Hole Size Constraint: (3.2mm > 2.54mm) Pad J1-MH2(53.213mm,104.013mm) on Multi-Layer Actual Hole Size = 3.2mm
-   Violation between Hole Size Constraint: (3.2mm > 2.54mm) Pad J2-MH1(41.402mm,104.013mm) on Multi-Layer Actual Hole Size = 3.2mm
-   Violation between Hole Size Constraint: (3.2mm > 2.54mm) Pad J2-MH2(29.972mm,104.013mm) on Multi-Layer Actual Hole Size = 3.2mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J1-MH3(55.232mm,96.77mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J1-MH4(67.172mm,96.77mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J3-MH3(30.252mm,96.822mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J3-MH4(42.192mm,96.822mm) on Multi-Layer Actual Hole Size = 3.25mm
 Rule Violations :4
 
 Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
-Rule Violations :0
+   Violation between Minimum Solder Mask Sliver Constraint: (0.134mm < 0.254mm) Between Pad J1-1(63.762mm,101.6mm) on Multi-Layer And Pad J1-2(64.782mm,103.12mm) on Multi-Layer [Top Solder] Mask Sliver [0.134mm] / [Bottom Solder] Mask Sliver [0.134mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.134mm < 0.254mm) Between Pad J1-1(63.762mm,101.6mm) on Multi-Layer And Pad J1-3(62.742mm,103.12mm) on Multi-Layer [Top Solder] Mask Sliver [0.134mm] / [Bottom Solder] Mask Sliver [0.134mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.134mm < 0.254mm) Between Pad J1-3(62.742mm,103.12mm) on Multi-Layer And Pad J1-5(61.722mm,101.6mm) on Multi-Layer [Top Solder] Mask Sliver [0.134mm] / [Bottom Solder] Mask Sliver [0.134mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.134mm < 0.254mm) Between Pad J1-4(60.702mm,103.12mm) on Multi-Layer And Pad J1-5(61.722mm,101.6mm) on Multi-Layer [Top Solder] Mask Sliver [0.134mm] / [Bottom Solder] Mask Sliver [0.134mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.134mm < 0.254mm) Between Pad J1-4(60.702mm,103.12mm) on Multi-Layer And Pad J1-6(59.682mm,101.6mm) on Multi-Layer [Top Solder] Mask Sliver [0.134mm] / [Bottom Solder] Mask Sliver [0.134mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.134mm < 0.254mm) Between Pad J1-6(59.682mm,101.6mm) on Multi-Layer And Pad J1-8(58.662mm,103.12mm) on Multi-Layer [Top Solder] Mask Sliver [0.134mm] / [Bottom Solder] Mask Sliver [0.134mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.134mm < 0.254mm) Between Pad J1-7(57.642mm,101.6mm) on Multi-Layer And Pad J1-8(58.662mm,103.12mm) on Multi-Layer [Top Solder] Mask Sliver [0.134mm] / [Bottom Solder] Mask Sliver [0.134mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.134mm < 0.254mm) Between Pad J3-1(38.782mm,101.652mm) on Multi-Layer And Pad J3-2(39.802mm,103.172mm) on Multi-Layer [Top Solder] Mask Sliver [0.134mm] / [Bottom Solder] Mask Sliver [0.134mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.134mm < 0.254mm) Between Pad J3-1(38.782mm,101.652mm) on Multi-Layer And Pad J3-3(37.762mm,103.172mm) on Multi-Layer [Top Solder] Mask Sliver [0.134mm] / [Bottom Solder] Mask Sliver [0.134mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.134mm < 0.254mm) Between Pad J3-3(37.762mm,103.172mm) on Multi-Layer And Pad J3-5(36.742mm,101.652mm) on Multi-Layer [Top Solder] Mask Sliver [0.134mm] / [Bottom Solder] Mask Sliver [0.134mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.134mm < 0.254mm) Between Pad J3-4(35.722mm,103.172mm) on Multi-Layer And Pad J3-5(36.742mm,101.652mm) on Multi-Layer [Top Solder] Mask Sliver [0.134mm] / [Bottom Solder] Mask Sliver [0.134mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.134mm < 0.254mm) Between Pad J3-4(35.722mm,103.172mm) on Multi-Layer And Pad J3-6(34.702mm,101.652mm) on Multi-Layer [Top Solder] Mask Sliver [0.134mm] / [Bottom Solder] Mask Sliver [0.134mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.134mm < 0.254mm) Between Pad J3-6(34.702mm,101.652mm) on Multi-Layer And Pad J3-8(33.682mm,103.172mm) on Multi-Layer [Top Solder] Mask Sliver [0.134mm] / [Bottom Solder] Mask Sliver [0.134mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.134mm < 0.254mm) Between Pad J3-7(32.662mm,101.652mm) on Multi-Layer And Pad J3-8(33.682mm,103.172mm) on Multi-Layer [Top Solder] Mask Sliver [0.134mm] / [Bottom Solder] Mask Sliver [0.134mm]
+Rule Violations :14
 
 Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
 Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
-Rule Violations :0
+   Violation between Silk To Silk Clearance Constraint: (0.235mm < 0.254mm) Between Arc (46.632mm,101.652mm) on Top Overlay And Text "R3" (47.363mm,102.164mm) on Top Overlay Silk Text to Silk Clearance [0.235mm]
+   Violation between Silk To Silk Clearance Constraint: (0.154mm < 0.254mm) Between Text "P1" (64.389mm,112.014mm) on Top Overlay And Track (64.77mm,111.76mm)(64.77mm,114.3mm) on Top Overlay Silk Text to Silk Clearance [0.154mm]
+   Violation between Silk To Silk Clearance Constraint: (0.231mm < 0.254mm) Between Text "P1" (64.389mm,112.014mm) on Top Overlay And Track (64.77mm,111.76mm)(69.85mm,111.76mm) on Top Overlay Silk Text to Silk Clearance [0.231mm]
+   Violation between Silk To Silk Clearance Constraint: (0.231mm < 0.254mm) Between Text "P1" (64.389mm,112.014mm) on Top Overlay And Track (64.77mm,114.3mm)(69.85mm,114.3mm) on Top Overlay Silk Text to Silk Clearance [0.231mm]
+   Violation between Silk To Silk Clearance Constraint: (0.154mm < 0.254mm) Between Text "P2" (55.372mm,111.76mm) on Top Overlay And Track (55.753mm,111.76mm)(55.753mm,114.3mm) on Top Overlay Silk Text to Silk Clearance [0.154mm]
+   Violation between Silk To Silk Clearance Constraint: (0.154mm < 0.254mm) Between Text "P2" (55.372mm,111.76mm) on Top Overlay And Track (55.753mm,111.76mm)(60.833mm,111.76mm) on Top Overlay Silk Text to Silk Clearance [0.154mm]
+   Violation between Silk To Silk Clearance Constraint: (0.154mm < 0.254mm) Between Text "P2" (55.372mm,111.76mm) on Top Overlay And Track (55.753mm,114.3mm)(60.833mm,114.3mm) on Top Overlay Silk Text to Silk Clearance [0.154mm]
+Rule Violations :7
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-Rule Violations :0
+   Violation between Net Antennae: Track (46.787mm,93.116mm)(46.787mm,94.386mm) on Bottom Layer 
+   Violation between Net Antennae: Track (46.787mm,94.386mm)(47.117mm,94.386mm) on Top Layer 
+   Violation between Net Antennae: Track (50.144mm,94.289mm)(50.927mm,95.072mm) on Top Layer 
+   Violation between Net Antennae: Track (51.07mm,95.072mm)(52.705mm,93.437mm) on Bottom Layer 
+   Violation between Net Antennae: Track (66.446mm,101.6mm)(67.894mm,103.048mm) on Bottom Layer 
+   Violation between Net Antennae: Track (67.945mm,103.048mm)(68.961mm,104.064mm) on Top Layer 
+Rule Violations :6
 
-Processing Rule : Room splicer (Bounding Region = (25.4mm, 91.948mm, 70.485mm, 127mm) (InComponentClass('splicer'))
+Processing Rule : Room splicer (Bounding Region = (24.13mm, 89.535mm, 73.152mm, 128.143mm) (InComponentClass('splicer'))
 Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 4
+Violations Detected : 43
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
